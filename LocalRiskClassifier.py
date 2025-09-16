@@ -5,7 +5,12 @@ import argparse
 import os  # NEW: Import the 'os' module for file system operations
 from tqdm import tqdm
 
-# line 58 has Model settings, default is Gemma3:12b, must already be running in Ollama
+# --- CONFIGURATION ---
+# ▼▼▼ EDIT THIS LINE TO CHANGE THE OLLAMA MODEL ▼▼▼
+#OLLAMA_MODEL = "gemma3:12b"
+OLLAMA_MODEL = "deepseek-r1:8b"
+# ▲▲▲ EDIT THIS LINE TO CHANGE THE OLLAMA MODEL ▲▲▲
+# ---------------------
 
 def get_analysis_prompt(file_name: str) -> str:
     """
@@ -57,7 +62,7 @@ def analyze_file_name_local(client, file_name: str) -> dict:
     
     try:
         response = client.chat(
-            model='gemma3:12b', # Or another model you have pulled
+            model=OLLAMA_MODEL, # Or another model you have pulled
             messages=[{'role': 'user', 'content': prompt}],
             format='json' # This forces the model to return valid JSON
         )
