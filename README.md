@@ -4,16 +4,21 @@ It analyzes each file name, assigns a risk score, determines a data classificati
 
 # How to Run
 ## Requirements:
+Mac w/ M-series processor
+
 Python
 
 Ollama
 
 # Ollama Setup:
-Download and run Gemma3:12b. [Ollama run Gemma3:12b]
+https://ollama.com/search
 
-In a new terminal navigate to the folder that contains the LocalRiskClassifier.py script + input_files.csv. 
+Download Ollama and run Gemma3:12b. [Ollama run Gemma3:12b]
 
-Then run script: 
+# Local Risk Classification Script
+In a new terminal navigate to the folder that contains the LocalRiskClassifier.py and input_files.csv. 
+
+Run script: 
 
 ```python
 python3 LocalRiskClassifier.py input_files.csv output_results.csv "File Name"
