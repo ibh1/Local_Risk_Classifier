@@ -1,5 +1,6 @@
-# Local_Risk_Classifier
+# Local Risk Classifier
 Local Script to perform risk classification using Ollama + Python
+It analyzes each file name, assigns a risk score, determines a data classification level based on a predefined schema, and identifies potential data types.
 
 How to Run
 Requirements:
