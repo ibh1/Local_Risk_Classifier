@@ -5,6 +5,7 @@ It analyzes each file name, assigns a risk score, determines a data classificati
 # How to Run
 ## Requirements:
 Python
+
 Ollama
 
 # Ollama Setup:
