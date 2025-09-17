@@ -14,7 +14,7 @@ In a new terminal navigate to the folder that contains the LocalRiskClassifier.p
 
 Then run script: 
 
-'''
+'''python
 python3 LocalRiskClassifier.py input_files.csv output_results.csv "File Name"
 '''
 
