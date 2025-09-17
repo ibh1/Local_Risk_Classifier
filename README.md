@@ -2,12 +2,12 @@
 Local Script to perform risk classification using Ollama + Python
 It analyzes each file name, assigns a risk score, determines a data classification level based on a predefined schema, and identifies potential data types.
 
-How to Run
-Requirements:
+# How to Run
+## Requirements:
 Python
 Ollama
 
-Ollama Setup:
+# Ollama Setup:
 Download and run Gemma3:12b. [Ollama run Gemma3:12b]
 
 In a new terminal navigate to the folder that contains the LocalRiskClassifier.py script + input_files.csv. 
