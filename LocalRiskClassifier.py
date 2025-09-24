@@ -156,7 +156,7 @@ def main():
     except FileNotFoundError: print(f"Error: Input file not found at '{args.input_csv}'")
     except Exception as e: print(f"\nAn unexpected error occurred: {e}")
 
-    print(f"\n✅ Analysis complete! Results saved to '{args.output_csv}'")
+    print(f"\n Analysis complete! Results saved to '{args.output_csv}'")
 
 if __name__ == "__main__":
     main()
